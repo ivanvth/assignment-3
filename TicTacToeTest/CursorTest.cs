@@ -25,25 +25,41 @@ public class CursorTest {
 
     [Test]
     public void MoveUpTest() {
-        // CODE HERE!
-        Assert.Fail();
+        Setup();
+        cursor.MoveUp();
+        int fX = cursor.position.X;
+        int fY = cursor.position.Y;
+        cursor.MoveUp();
+        Assert.True(cursor.position.X == fX && cursor.position.Y == fY);
     }
 
     [Test]
     public void MoveDownTest() {
-        // CODE HERE!
-        Assert.Fail();
+        Setup();
+        cursor.MoveDown();
+        int fX = cursor.position.X;
+        int fY = cursor.position.Y;
+        cursor.MoveDown();
+        Assert.True(cursor.position.X == fX && cursor.position.Y == fY);
     }
     
     [Test]
     public void MoveLeftTest() {
-        // CODE HERE!
-        Assert.Fail();
+        Setup();
+        cursor.MoveLeft();
+        int fX = cursor.position.X;
+        int fY = cursor.position.Y;
+        cursor.MoveLeft();
+        Assert.True(cursor.position.X == fX && cursor.position.Y == fY);
     }
 
     [Test]
     public void MoveRightTest() {
-        // CODE HERE!
-        Assert.Fail();
+        Setup();
+        cursor.MoveRight();
+        int fX = cursor.position.X;
+        int fY = cursor.position.Y;
+        cursor.MoveRight();
+        Assert.True(cursor.position.X == fX && cursor.position.Y == fY);
     }   
 }

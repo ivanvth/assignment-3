@@ -49,32 +49,28 @@ public class Cursor : IPositionInput {
     /// Moves the cursor one position up.
     /// </summary>
     public void MoveUp() {
-        // CODE HERE!
-        throw new NotImplementedException();
+        Y = Y == 0 ? Y : Y--; 
     }
 
     /// <summary>
     /// Moves the cursor one position down.
     /// </summary>
     public void MoveDown() {
-        // CODE HERE!
-        throw new NotImplementedException();
+        Y = Y == 2 ? Y : Y++;
     }
 
     /// <summary>
     /// Moves the cursor one position left.
     /// </summary>
     public void MoveLeft() {
-        // CODE HERE!
-        throw new NotImplementedException();
+        X = X == 0 ? X : X--;
     }
 
     /// <summary>
     /// Moves the cursor one position right.
     /// </summary>
     public void MoveRight() {
-        // CODE HERE!
-        throw new NotImplementedException();
+        X = X == 2 ? X : X++;
     }
 
     /// <summary>
