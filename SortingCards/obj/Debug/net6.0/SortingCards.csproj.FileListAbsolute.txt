@@ -1,0 +1,15 @@
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\SortingCards.exe
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\SortingCards.deps.json
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\SortingCards.runtimeconfig.json
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\SortingCards.dll
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\ref\SortingCards.dll
+C:\Users\ivt44\KU\SU\ass3\SortingCards\bin\Debug\net6.0\SortingCards.pdb
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.csproj.AssemblyReference.cache
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.AssemblyInfoInputs.cache
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.AssemblyInfo.cs
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.csproj.CoreCompileInputs.cache
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.dll
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\ref\SortingCards.dll
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.pdb
+C:\Users\ivt44\KU\SU\ass3\SortingCards\obj\Debug\net6.0\SortingCards.genruntimeconfig.cache
