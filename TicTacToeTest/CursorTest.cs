@@ -25,7 +25,6 @@ public class CursorTest {
 
     [Test]
     public void MoveUpTest() {
-        Setup();
         cursor.MoveUp();
         int fX = cursor.position.X;
         int fY = cursor.position.Y;
@@ -35,7 +34,6 @@ public class CursorTest {
 
     [Test]
     public void MoveDownTest() {
-        Setup();
         cursor.MoveDown();
         int fX = cursor.position.X;
         int fY = cursor.position.Y;
@@ -45,7 +43,6 @@ public class CursorTest {
     
     [Test]
     public void MoveLeftTest() {
-        Setup();
         cursor.MoveLeft();
         int fX = cursor.position.X;
         int fY = cursor.position.Y;
@@ -55,7 +52,6 @@ public class CursorTest {
 
     [Test]
     public void MoveRightTest() {
-        Setup();
         cursor.MoveRight();
         int fX = cursor.position.X;
         int fY = cursor.position.Y;

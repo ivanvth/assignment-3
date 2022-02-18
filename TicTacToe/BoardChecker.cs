@@ -20,8 +20,26 @@ public class BoardChecker : IBoardChecker {
     /// True if there is a win where all identifiers in the row is equal else false.
     /// </returns>
     private bool IsRowWin(Board board) {
-        // CODE HERE!
-        throw new NotImplementedException();
+        PlayerIdentifier? prevId = null;
+        Playeridentifier? currentId = null;
+        for (int row=0; row<board.Size; row++) {
+            for (int col=0; col<board.Size; col++) {
+                currentId = board.Get(row, col);
+                if (currentId == null) {
+                    prevId = null;
+                    break;
+                } else if (prevId == null || prevId == currentId) {
+                    prevId = currentId;
+                } else {
+                    prevId = null;
+                    break;
+                }
+            }
+            if (prevId != null) {
+                return true;
+            }
+        }
+        return false;
     }
 
     /// <summary>
@@ -57,7 +75,9 @@ public class BoardChecker : IBoardChecker {
     /// <param name="board">A given board.</param>
     /// <returns> The state of the board.</returns>
     public BoardState CheckBoardState(Board board) {
-        // CODE HERE!
-        throw new NotImplementedException();
+        if (IsRowWin(board)) {
+            return BoardState.Winner;
+        }
+        return BoardState.Inconclusive;
     }
 }

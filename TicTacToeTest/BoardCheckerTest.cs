@@ -17,14 +17,15 @@ public class BoardCheckerTest {
 
     [Test]
     public void DiagonalWinTest() {
-        // CODE HERE!
         Assert.Fail();
     }
 
     [Test]
     public void RowWinTest() {
-        // CODE HERE!
-        Assert.Fail();
+        board.TryInsert(0, 0, PlayerIdentifier.Cross);
+        board.TryInsert(0, 1, PlayerIdentifier.Cross);
+        board.TryInsert(0, 2, PlayerIdentifier.Cross);
+        Assert.AreEqual(BoardState.Winner, boardChecker.CheckBoardState(board));
     }
     
     [Test]

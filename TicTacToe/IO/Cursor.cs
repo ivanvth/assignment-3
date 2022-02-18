@@ -49,28 +49,32 @@ public class Cursor : IPositionInput {
     /// Moves the cursor one position up.
     /// </summary>
     public void MoveUp() {
-        Y = Y == 0 ? Y : Y--; 
+        if (Y != min) {
+            Y--;
+        }
     }
 
     /// <summary>
     /// Moves the cursor one position down.
     /// </summary>
     public void MoveDown() {
-        Y = Y == 2 ? Y : Y++;
+        if (Y != max) {
+            Y++;
+        }
     }
 
     /// <summary>
     /// Moves the cursor one position left.
     /// </summary>
     public void MoveLeft() {
-        X = X == 0 ? X : X--;
+        X = X == min ? X : X-1;
     }
 
     /// <summary>
     /// Moves the cursor one position right.
     /// </summary>
     public void MoveRight() {
-        X = X == 2 ? X : X++;
+        X = X == max ? X : X+1;
     }
 
     /// <summary>
@@ -91,8 +95,36 @@ public class Cursor : IPositionInput {
     /// True if the InputType was PerformMove else false.
     /// </returns>
     private bool MoveCursor(InputType inputType) {
-        // CODE HERE!
-        throw new NotImplementedException();
+        bool rv = false;
+        switch (inputType) {
+            case InputType.Undefined:
+                rv = false;
+                break;
+            case InputType.PerformMove:
+                rv = true;
+                break;
+            case InputType.Exit:
+                rv = false;
+                Quit();
+                break;
+            case InputType.Up:
+                rv = false;
+                MoveUp();
+                break;
+            case InputType.Down:
+                rv = false;
+                MoveDown();
+                break;
+            case InputType.Right:
+                rv = false;
+                MoveRight();
+                break;
+            case InputType.Left:
+                rv = false;
+                MoveLeft();
+                break;
+        }
+        return rv;
     }
 
     /// <summary>
