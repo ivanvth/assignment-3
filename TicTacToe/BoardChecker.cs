@@ -20,22 +20,19 @@ public class BoardChecker : IBoardChecker {
     /// True if there is a win where all identifiers in the row is equal else false.
     /// </returns>
     private bool IsRowWin(Board board) {
-        PlayerIdentifier? prevId = null;
-        Playeridentifier? currentId = null;
+        PlayerIdentifier? first = null;
         for (int row=0; row<board.Size; row++) {
-            for (int col=0; col<board.Size; col++) {
-                currentId = board.Get(row, col);
-                if (currentId == null) {
-                    prevId = null;
-                    break;
-                } else if (prevId == null || prevId == currentId) {
-                    prevId = currentId;
-                } else {
-                    prevId = null;
+            first = board.Get(row, 0);
+            if (first is null) {
+                continue;
+            }
+            for (int col=1; col<board.Size; col++) {
+                if (board.Get(row, col) != first) {
+                    first = null;
                     break;
                 }
             }
-            if (prevId != null) {
+            if (first is not null) {
                 return true;
             }
         }
@@ -51,8 +48,23 @@ public class BoardChecker : IBoardChecker {
     /// True if there is a win where all identifiers in the column is equal else false.
     /// </returns>
     private bool IsColWin(Board board) {
-        // CODE HERE!
-        throw new NotImplementedException();
+        PlayerIdentifier? first = null;
+        for (int col=0; col<board.Size; col++) {
+            first = board.Get(0, col);
+            if (first is null) {
+                continue;
+            }
+            for (int row=1; row<board.Size; row++) {
+                if (board.Get(row, col) != first) {
+                    first = null;
+                    break;
+                }
+            }
+            if (first is not null) {
+                return true;
+            }
+        }
+        return false;
     }
 
     /// <summary>
@@ -64,8 +76,31 @@ public class BoardChecker : IBoardChecker {
     /// True if there is a win where all identifiers in the diagonal is equal else false.
     /// </returns>
     private bool IsDiagWin(Board board) {
-        // CODE HERE!
-        throw new NotImplementedException();
+        PlayerIdentifier? first = board.Get(0, 0);
+        if (first is not null) {
+            for (int rowcol=1; rowcol<board.Size; rowcol++) {
+                if (board.Get(rowcol, rowcol) != first) {
+                    first = null;
+                    break;
+                }
+            }
+            if (first is not null) {
+                return true;   
+            }
+        }
+        first = board.Get(0, board.Size-1);
+        if (first is not null) {
+            for (int row=1, col=board.Size-2; row<board.Size; row++, col--) {
+                if (board.Get(row, col) != first) {
+                    first = null;
+                    break;
+                }
+            }
+        }
+        if (first is not null) {
+            return true;
+        }
+        return false;
     }
 
     /// <summary>
@@ -77,7 +112,14 @@ public class BoardChecker : IBoardChecker {
     public BoardState CheckBoardState(Board board) {
         if (IsRowWin(board)) {
             return BoardState.Winner;
+        } else if (IsColWin(board)) {
+            return BoardState.Winner;
+        } else if (IsDiagWin(board)) {
+            return BoardState.Winner;
+        } else if (board.IsFull()) {
+            return BoardState.Tied;
+        } else {
+            return BoardState.Inconclusive;
         }
-        return BoardState.Inconclusive;
     }
 }

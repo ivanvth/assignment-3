@@ -67,14 +67,18 @@ public class Cursor : IPositionInput {
     /// Moves the cursor one position left.
     /// </summary>
     public void MoveLeft() {
-        X = X == min ? X : X-1;
+        if (X != min) {
+            X--;
+        }
     }
 
     /// <summary>
     /// Moves the cursor one position right.
     /// </summary>
     public void MoveRight() {
-        X = X == max ? X : X+1;
+        if (X != max) {
+            X++;
+        }
     }
 
     /// <summary>

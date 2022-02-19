@@ -3836,25 +3836,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IVT\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\ivt44\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\TicTacToeTest\\TicTacToeTest.csproj",
+      "projectUniqueName": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
       "projectName": "TicTacToeTest",
-      "projectPath": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\TicTacToeTest\\TicTacToeTest.csproj",
-      "packagesPath": "C:\\Users\\IVT\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\TicTacToeTest\\obj\\",
+      "projectPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
+      "packagesPath": "C:\\Users\\ivt44\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\IVT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivt44\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3869,8 +3872,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\TicTacToe\\TicTacToe.csproj": {
-              "projectPath": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\TicTacToe\\TicTacToe.csproj"
+            "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj": {
+              "projectPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj"
             }
           }
         }
@@ -3917,7 +3920,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
