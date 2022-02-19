@@ -102,29 +102,29 @@ public class Cursor : IPositionInput {
         bool rv = false;
         switch (inputType) {
             case InputType.Undefined:
-                rv = false;
-                break;
-            case InputType.PerformMove:
                 rv = true;
                 break;
-            case InputType.Exit:
+            case InputType.PerformMove:
                 rv = false;
+                break;
+            case InputType.Exit:
+                rv = true;
                 Quit();
                 break;
             case InputType.Up:
-                rv = false;
+                rv = true;
                 MoveUp();
                 break;
             case InputType.Down:
-                rv = false;
+                rv = true;
                 MoveDown();
                 break;
             case InputType.Right:
-                rv = false;
+                rv = true;
                 MoveRight();
                 break;
             case InputType.Left:
-                rv = false;
+                rv = true;
                 MoveLeft();
                 break;
         }
