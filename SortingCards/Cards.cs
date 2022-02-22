@@ -12,9 +12,9 @@ public class Card : IComparable<Card> {
     }
 
     public int CompareTo(Card c) {
-        int currentValue = this.suit * 16 + this.rank;
+        int thisValue = this.suit * 16 + this.rank;
         int otherValue = c.suit * 16 + c.rank;
-        return currentValue - otherValue;
+        return thisValue - otherValue;
     }
 
     public override string ToString() {
