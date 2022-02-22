@@ -5,6 +5,13 @@ namespace SortingCards;
 
 public class Program {
     static void Main() {
+
+        var lst = new List<int> {1,2, -3, 4, 5, 0, -1};
+        foreach (var i in lst) {
+            System.Console.WriteLine("{0}", i>=0 ? i : " ");
+        }
+        Console.ReadLine();
+
         var deck = new List<Card> {
             new Card (2,3),
             new Card (5,1),

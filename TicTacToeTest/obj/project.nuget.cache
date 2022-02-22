@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UIO0dK8p262+kcWOjBCBK4qZhkmIM8MIUAg6jqlbK/KQtmE/XDvsGl+pjDvo4MdooSvzANi5hL7j0pVdB8/7AQ==",
+  "dgSpecHash": "iFsYFoCbz0rkSaH2AvsLEWja6au03lb5JzL11XQ+7kqBdNZ9yI0HPF+xWt3r9DUeVFGlyYlByJhjSB8Kt83/Kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
+  "projectFilePath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivt44\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\ivt44\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

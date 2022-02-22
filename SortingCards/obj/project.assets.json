@@ -8,25 +8,28 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\IVT\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\ivt44\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\SortingCards\\SortingCards.csproj",
+      "projectUniqueName": "c:\\Users\\ivt44\\KU\\SU\\ass3\\SortingCards\\SortingCards.csproj",
       "projectName": "SortingCards",
-      "projectPath": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\SortingCards\\SortingCards.csproj",
-      "packagesPath": "C:\\Users\\IVT\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\IVT\\ku\\SU\\ass3\\assignment-3\\SortingCards\\obj\\",
+      "projectPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\SortingCards\\SortingCards.csproj",
+      "packagesPath": "C:\\Users\\ivt44\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\SortingCards\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\IVT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivt44\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -35,7 +38,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/packages/DSharpPlus/": {}
       },
       "frameworks": {
         "net6.0": {
@@ -67,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
