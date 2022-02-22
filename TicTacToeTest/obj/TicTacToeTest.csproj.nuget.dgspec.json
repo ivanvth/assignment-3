@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj": {}
+    "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj": {
+    "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
+        "projectUniqueName": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
         "projectName": "TicTacToeTest",
-        "projectPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
+        "projectPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\TicTacToeTest.csproj",
         "packagesPath": "C:\\Users\\ivt44\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\obj\\",
+        "outputPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToeTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -36,8 +36,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj": {
-                "projectPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj"
+              "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj": {
+                "projectPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj": {
+    "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\ivt44\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\obj\\",
+        "outputPath": "C:\\Users\\ivt44\\KU\\SU\\ass3\\TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

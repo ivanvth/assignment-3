@@ -12,8 +12,8 @@ public class Card : IComparable<Card> {
     }
 
     public int CompareTo(Card c) {
-        int currentValue = this.suit * 100 + this.rank;
-        int otherValue = c.suit * 100 + c.rank;
+        int currentValue = this.suit * 16 + this.rank;
+        int otherValue = c.suit * 16 + c.rank;
         return currentValue - otherValue;
     }
 
