@@ -96,7 +96,7 @@ public class Cursor : IPositionInput {
     /// An InputType that defines the action the player will be performing.
     /// </param>
     /// <returns>
-    /// True if the InputType was PerformMove else false.
+    /// False if the InputType was PerformMove else true.
     /// </returns>
     private bool MoveCursor(InputType inputType) {
         bool rv = false;
